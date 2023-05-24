@@ -194,8 +194,8 @@
 }
 
 .plyr__control:focus-visible {
-    outline: 2px dashed #834fd6;
-    outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #834fd6)));
+    outline: 2px dashed #4fd65a;
+    outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #4fd65a)));
     outline-offset: 2px
 }
 
@@ -464,8 +464,8 @@ a.plyr__control:before {
 }
 
 .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]:before {
-    background: #834fd6;
-    background: var(--plyr-control-toggle-checked-background, var(--plyr-color-main, var(--plyr-color-main, #834fd6)))
+    background: #4fd65a;
+    background: var(--plyr-control-toggle-checked-background, var(--plyr-color-main, var(--plyr-color-main, #4fd65a)))
 }
 
 .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]:after {
@@ -497,8 +497,8 @@ a.plyr__control:before {
     border: 0;
     border-radius: 26px;
     border-radius: calc(var(--plyr-range-thumb-height, 13px)*2);
-    color: #834fd6;
-    color: var(--plyr-range-fill-background, var(--plyr-color-main, var(--plyr-color-main, #834fd6)));
+    color: #4fd65a;
+    color: var(--plyr-range-fill-background, var(--plyr-color-main, var(--plyr-color-main, #4fd65a)));
     display: block;
     height: 19px;
     height: calc(var(--plyr-range-thumb-active-shadow-width, 3px)*2 + var(--plyr-range-thumb-height, 13px));
@@ -640,20 +640,20 @@ a.plyr__control:before {
 }
 
 .plyr--full-ui input[type=range]:focus-visible::-webkit-slider-runnable-track {
-    outline: 2px dashed #834fd6;
-    outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #834fd6)));
+    outline: 2px dashed #4fd65a;
+    outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #4fd65a)));
     outline-offset: 2px
 }
 
 .plyr--full-ui input[type=range]:focus-visible::-moz-range-track {
-    outline: 2px dashed #834fd6;
-    outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #834fd6)));
+    outline: 2px dashed #4fd65a;
+    outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #4fd65a)));
     outline-offset: 2px
 }
 
 .plyr--full-ui input[type=range]:focus-visible::-ms-track {
-    outline: 2px dashed #834fd6;
-    outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #834fd6)));
+    outline: 2px dashed #4fd65a;
+    outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #4fd65a)));
     outline-offset: 2px
 }
 
@@ -936,8 +936,8 @@ a.plyr__control:before {
 .plyr--audio .plyr__control:focus-visible,
 .plyr--audio .plyr__control:hover,
 .plyr--audio .plyr__control[aria-expanded=true] {
-    background: #834fd6;
-    background: var(--plyr-audio-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #834fd6)));
+    background: #4fd65a;
+    background: var(--plyr-audio-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #4fd65a)));
     color: #fff;
     color: var(--plyr-audio-control-color-hover, #fff)
 }
@@ -1064,15 +1064,15 @@ a.plyr__control:before {
 .plyr--video .plyr__control:focus-visible,
 .plyr--video .plyr__control:hover,
 .plyr--video .plyr__control[aria-expanded=true] {
-    background: #834fd6;
-    background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #834fd6)));
+    background: #4fd65a;
+    background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #4fd65a)));
     color: #fff;
     color: var(--plyr-video-control-color-hover, #fff)
 }
 
 .plyr__control--overlaid {
     background: #4fd65a;
-    background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #834fd6)));
+    background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #4fd65a)));
     border: 0;
     border-radius: 100%;
     color: #fff;
